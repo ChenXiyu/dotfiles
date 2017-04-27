@@ -3,4 +3,4 @@
 # spacemacs dotfile
 echo "--------------installing spacemacs config------------------"
 [ -e ~/.spacemacs ] && rm ~/.spacemacs && echo "---remove original one"
-ln -s $(pwd)/spacemacs ~/.spacemacs && echo "---done"
+ln $(pwd)/spacemacs ~/.spacemacs && echo "---done"
