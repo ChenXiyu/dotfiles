@@ -141,9 +141,10 @@ values."
    ;; quickly tweak the mode-line size to make separators look not too crappy.
    dotspacemacs-default-font '("Source Code Pro"
                                :size 14
-                               :weight normal
+                               :weight bold
                                :width normal
-                               :powerline-scale 1)
+                               :slant italic
+                               :powerline-scale 1.1)
    ;; The leader key
    dotspacemacs-leader-key "SPC"
    ;; The key used for Emacs commands (M-x) (after pressing on the leader key).
